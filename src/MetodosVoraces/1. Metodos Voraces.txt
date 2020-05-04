@@ -1,0 +1,14 @@
+- Escojo una heurística que es una opción que yo asumo ser el más prometedor y sigo por ahí hasta  encontrar el resultado
+- Procedimiento:
+    1. Un candidato.
+    2. Tener un conjunto de decisiones (Candidatos ya escogidos).
+    3. Una función que me indique si un conjunto puede ser una solución.
+    4. Una función que determina si un conjunto es completable, si añadiendo ese     
+    conjunto es posible alcanzar la solución al problema, suponiendo que esta exista
+    5. Una función de selección que escoge el candidato más prometedor.
+    6. Una función objetivo a maximizar o minimizar.
+
+Ejemplo de la moneda:
+Devolver 1750
+C = { 1000, 500, 200, 100, 50 }
+S = { 1000, 500, 200, 50 }

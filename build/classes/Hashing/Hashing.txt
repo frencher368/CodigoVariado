@@ -1,0 +1,17 @@
+Hashing: ( )
+
+- Como hacer para almacenar información y su búsqueda sea más eficiente.
+- Almacena el número 100 en la casilla número 100 del arreglo, 101 en la posición 101…
+- Coge el número, hace una operación y coloca el número en el arreglo, no recorre el arreglo para colocarlo.
+
+Ventajas
+- Se puede trabajar con las llaves, la traducción es transparente
+- Las llaves son independientes del espacio de direcciones
+- No se requiere almacenamiento adicional para índices
+- O(1)
+Desventajas
+- No pueden usarse registros de longitud variable
+- La información no está ordenada
+- No permite llaves repetidas
+- Sólo permite acceso por una sola llave
+- O(huy!) si hay muchas colisiones

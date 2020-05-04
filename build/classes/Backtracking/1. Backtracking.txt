@@ -1,0 +1,8 @@
+- Backtracking:
+- Cada nodo del árbol representa un estado, tener un valor.
+La respuesta que encuentre es la mejor
+Procedimiento:
+    1. Estado inicio.
+    2. Estado final.
+    3. Paso de estados.
+    4. Restricciones.
